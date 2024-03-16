@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://myresturent-backend-1.onrender.com",
+        "backend link",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
